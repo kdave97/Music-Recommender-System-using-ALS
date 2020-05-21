@@ -8,9 +8,13 @@ The dataset is a public song dataset from Audioscrobbler. This data set contains
 The files are present in the data_raw folder. A more detailed description about the dataset is given in the readme file of data_raw folder.
 
 ## Recommender Model
+To get recommendations, following steps were performed:
 
-
-
+* Perform Data Exploration to understand the dataset.
+* Split the data into training, validation and testing set.
+* Train the model using implicit feedback.
+* Perform parameter sweep and choose the model that perform best on validation data.
+* Predict the top 5 artists.
 
 
 <b> Run the Music_recommender_ALS_Spark_Py.ipynb file 
